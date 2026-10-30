@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#0a0512">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="999 Player">
+<title>999 Player by idoname</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div id="app">
+  <aside id="sidebar"></aside>
+  <section id="main">
+    <header id="topbar"></header>
+    <div id="view"></div>
+  </section>
+  <aside id="right"></aside>
+  <footer id="bar"></footer>
+  <nav id="tabs"></nav>
+</div>
+<div id="np" hidden></div>
+<div id="scrim" hidden></div>
+<div id="drop" hidden>Drop songs or folders to add them</div>
+<script type="module" src="js/app.js"></script>
+<noscript>999 Player needs JavaScript.</noscript>
+</body>
+</html>

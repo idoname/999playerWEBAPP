@@ -1,0 +1,17 @@
+{
+  "name": "999 Player by idoname",
+  "short_name": "999 Player",
+  "description": "A music player for your own files: library, playlists, synced lyrics, themes, animated backgrounds, friends and song comments.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0a0512",
+  "theme_color": "#0a0512",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
